@@ -2,8 +2,8 @@
 
 This repository features documentation, data, and code for participating in the shared annotation task of generating a structured database linking medical devices to their indications.
 
-## Permarket Approval Data
+## Permarket Approval Corpus
 
-A zipped file containing a spreadsheet with information about of releaseable Premarket Approvals can be [downloaded from FDA](http://www.accessdata.fda.gov/premarket/ftparea/pma.zip).
+Our corpus of premarket approval statements mentioning class III device indications can be found at on our [PubAnnotation project page.](http://pubannotation.org/projects/blah6_medical_device)
 
-The ipython notebook extract_pma_data.ipynb contains code stubs for extracting data from the zipped file.
+The ipython notebook pma_corpus_builder.ipynb contains code for downloading data from OpenFDA, parsing it, and uploading to PubAnnotation.
